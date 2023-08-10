@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>form</title>
+</head>
+<body>
+	<main>
+		<h1>Свяжитесь со мной</h1>
+		<form action="#">
+			<div>
+				<label for="email">E-mail*</label>
+				<input type="email" name="email" id="email" placeholder="e-mail" required>
+			</div>
+			<div>
+				<label for="tg">Telegtam</label>
+				<input type="text" name="tg" id="tg" placeholder="Введите телеграм">
+			</div>
+			<div>
+				<label for="course">Тема*</label>
+				<select name="course" id="course" required>
+					<option value="1">Приобретение курсов</option>
+					<option value="2">Получение сертификата</option>
+					<option value="3">Устройство на работу</option>
+				</select>
+			</div>
+			<div>
+				<label for="comment">Комментарий</label>
+				<textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+			</div>
+			<button>Отправить</button>
+		</form>
+	</main>
+</body>
+</html>
