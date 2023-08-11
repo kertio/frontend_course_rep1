@@ -5,33 +5,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Form</title>
+	<link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 	<main>
-		<h1>Регистрация</h1>
-		<h2>Уже есть аккаунт?<a href="#">Войти</a></h2>
 		
 		<form action="#">
-			<label for="company">Моя компания</label>
-			<input type="text" name="company" placeholder="Моя компания">
+			<h1>Регистрация</h1>
+			<h2>Уже есть аккаунт?<a href="#">Войти</a></h2>
+			<label for="company" id="label__company">Моя компания</label>
+			<input type="text" name="company" placeholder="Моя компания"  id="company">
 			<div>
 				<label for="name">Имя</label>
-				<input type="text" name="name" placeholder="Имя">
+				<input type="text" name="name" placeholder="Имя" id="name">
 
 				<label for="surname">Фамилия</label>
-				<input type="text" name="surname" placeholder="Фамилия">
+				<input type="text" name="surname" placeholder="Фамилия" id="surname">
 			</div>
 			<div>
 				<label for="email">E-mail</label>
-				<input type="email" name="email" placeholder="E-mail">
+				<input type="email" name="email" placeholder="E-mail" id="email">
 			</div>
 
 			<button>Зарегистрироваться<span>&rarr;</span></button>
 
 			<div>
 				<input type="checkbox" name="agree" id="agree">
-				<label for="agree">Я прочитал и принимаю</label>
-				<a href="#">Условия использования</a>
+				<label for="agree" id="agree__label">Я прочитал и принимаю</label>
+				<a href="#" id="agree__link">Условия использования</a>
 			</div>
 		</form>
 	</main>
