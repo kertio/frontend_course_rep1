@@ -4,30 +4,59 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Form</title>
+	<meta name="description" content="Форма регистрации пользователя">
+	<title>Регистрация пользователя</title>
 	<link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 	<main>
-		
 		<form action="#">
-			<h1>Регистрация</h1>
+			<p class="form__register-title">Регистрация</p>
 			<h2>Уже есть аккаунт?<a href="#">Войти</a></h2>
-			<label for="company" id="label__company">Моя компания</label>
-			<input type="text" name="company" placeholder="Моя компания"  id="company">
+			<label id="label__company">
+				Моя компания
+					<input 
+						id="company"
+						type="text" 
+						name="company" 
+						placeholder="Моя компания"  
+						autocomplete="organization">
+				</label>
+				
 			<div>
-				<label for="name">Имя</label>
-				<input type="text" name="name" placeholder="Имя" id="name">
-
-				<label for="surname">Фамилия</label>
-				<input type="text" name="surname" placeholder="Фамилия" id="surname">
+				<label>
+					Имя
+					<input 
+						id="name"
+						type="text" 
+						name="name" 
+						placeholder="Имя" 
+						autocomplete="given-name">
+				</label>
+				
+				<label>
+					Фамилия
+					<input 
+						id="surname"
+						type="text" 
+						name="surname" 
+						placeholder="Фамилия" 
+						autocomplete="family-name">
+				</label>
 			</div>
+
 			<div>
-				<label for="email">E-mail</label>
-				<input type="email" name="email" placeholder="E-mail" id="email">
+				<label>
+					E-mail</label>
+					<input 
+						id="email"
+						type="email" 
+						name="email" 
+						placeholder="E-mail" 
+						autocomplete="email">
 			</div>
 
-			<button>Зарегистрироваться<span>&rarr;</span></button>
+			<button>Зарегистрироваться &rarr;</button>
 
 			<div>
 				<input type="checkbox" name="agree" id="agree">
