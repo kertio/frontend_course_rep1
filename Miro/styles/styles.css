@@ -1,0 +1,41 @@
+* {
+	background-color: #fff;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.section__title {
+	color: #050038;
+	font-size: 48px;
+}
+
+.section__subtitle {
+	color: #050038;
+}
+
+.section__subtitle-opacity {
+	color: rgba(5, 0, 56, 0.60);
+	color: #050038;
+}
+
+.link {
+	color: #4262FF;
+}
+
+.form__email {
+	background: #FFF;
+}
+
+.form__button {
+	background: #4262FF;
+	color: #fff;
+}
+.form__subtitle {
+	font-size: 14px;
+	color: #050038;
+}
+
+.hero__subtitle_users {
+	
+}
