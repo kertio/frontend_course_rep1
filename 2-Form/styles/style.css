@@ -10,10 +10,9 @@ form {
 	background: #FFFEFE;
 }
 
-h1 {
+.form__register-title {
 	color: #333;
 	font-size: 36px;
-	font-style: normal;
 	font-weight: 700;
 }
 
@@ -24,8 +23,11 @@ h2 {
 }
 
 #label__company {
-	font-style: normal;
 	color: #333;
+}
+
+#label__company imput {
+	background-color: #fff;
 }
 
 h2 a {
@@ -51,7 +53,6 @@ button {
 }
 
 #agree__label {
-	font-style: normal;
 	color: #666;
 }
 
