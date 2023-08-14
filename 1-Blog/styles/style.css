@@ -1,0 +1,47 @@
+body {
+	background: linear-gradient(180deg, #374151 0%, #111827 100%);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFF;
+}
+
+
+
+nav a {
+	color: #FFF;
+}
+
+.logo {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.logo-symbol {
+	font-weight: 600;
+}
+
+nav input {
+	background: rgba(31, 41, 55, 0.60);
+}
+
+.frontend-info {
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+.developer-info {
+	font-size: 16px;
+}
+
+.developer-info__developer {
+	font-size: 14px;
+}
+
+.paragraph-text__block1 {
+	font-size: 20px;
+}
+
