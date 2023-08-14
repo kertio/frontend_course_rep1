@@ -1,15 +1,43 @@
 body {
+	box-sizing: border-box;
 	background: linear-gradient(180deg, #374151 0%, #111827 100%);
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	color: #FFF;
+	padding: 0;
+	margin: 0;
 }
 
+h1 {
+	font-size: 24px;
+	margin: 0 0 30px;
+	width: 525px;
+}
 
+nav {
+	padding: 80px 0 80px 180px;
+}
+
+nav li {
+	list-style: none;
+}
 
 nav a {
 	color: #FFF;
+	text-decoration: none;
+}
+
+nav input {
+	border: none;
+	border-radius: 100px;
+	background: rgba(31, 41, 55, 0.60);
+	width: 220px;
+	padding: 10px 10px;
+}
+
+footer p {
+	margin: 80px;
 }
 
 .logo {
@@ -19,29 +47,48 @@ nav a {
 
 .logo-symbol {
 	font-weight: 600;
-}
-
-nav input {
-	background: rgba(31, 41, 55, 0.60);
+	border-radius: 3px;
+	background: #4B5563;
+	box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+	padding: 6px 12px;
 }
 
 .frontend-info {
 	font-size: 14px;
+	margin: 14px 0;
 }
 
-h1 {
-	font-size: 24px;
+.frontend-info__circle {
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	background-color: #FFF;
+	border-radius: 50%;
+	margin: 2px 12px;
 }
 
 .developer-info {
 	font-size: 16px;
 }
 
+.developer-info img {
+	margin: 30px 16px;
+	width: 50px;
+	height: 50px;
+}
+
+
 .developer-info__developer {
 	font-size: 14px;
+	color: #cac5c5;
+}
+
+.developer-info__image {
+	margin-bottom: 70px;
 }
 
 .paragraph-text__block1 {
 	font-size: 20px;
+	margin-bottom: 35px;
 }
 
