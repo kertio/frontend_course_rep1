@@ -1,41 +1,73 @@
 * {
-	background-color: #fff;
+
+	padding: 0;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
+}
+
+h2 {
+	color: #050038;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0 0 19px 0;
+}
+
+section p {
+	margin: 0 0 39px 0;
+}
+
+footer {
+	background: #050038;
+	padding: 47px 60px;
+	color: #FFF;
+}
+
+footer a {
+	text-decoration: none;
 	font-size: 18px;
+	color: #FFF;
+}
+.navigation {
+	padding: 33px 50px;
+	border-bottom: 1px solid #F0F0F0;
+	margin-bottom: 60px;
+}
+
+.navigation__link {
+	color: #050038;
+	text-decoration: none;
 }
 
 .section__title {
-	color: #050038;
 	font-size: 48px;
+	color: #050038;
+	margin: 0 0 17px 0;
 }
-
 .section__subtitle {
-	color: #050038;
-}
-
-.section__subtitle-opacity {
-	color: rgba(5, 0, 56, 0.60);
-	color: #050038;
-}
-
-.link {
-	color: #4262FF;
+	margin: 0 0 55px 0;
 }
 
 .form__email {
-	background: #FFF;
+	border-radius: 32px;
+	border: 1px solid #9B99AF;
+	height: 36px;
+	padding: 5px 10px;
 }
 
 .form__button {
+	height: 48px;
+	padding: 10px 20px;
+	border-radius: 32px;
+	border: 1px solid #4262FF;
 	background: #4262FF;
-	color: #fff;
-}
-.form__subtitle {
-	font-size: 14px;
-	color: #050038;
 }
 
-.hero__subtitle_users {
-	
+.form__subtitle {
+	color: #050038;
+	font-size: 14px;
+	width: 342px;
+	padding: 8px 0 47px 0;
+	margin: 0;
 }
