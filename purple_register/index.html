@@ -9,17 +9,20 @@
 </head>
 <body>
 	<main>
-		<h1>Свяжитесь со мной</h1>
 		<form action="#">
-			<div>
+			<h1>Свяжитесь со мной</h1>
+			<div class="field">
+				<img src="./images/message.svg" alt="">
 				<label for="email">E-mail*</label>
 				<input type="email" name="email" id="email" placeholder="e-mail" required>
 			</div>
-			<div>
+			<div class="field">
+				<img src="./images/telegram.svg" alt="">
 				<label for="tg">Telegtam</label>
 				<input type="text" name="tg" id="tg" placeholder="Введите телеграм">
 			</div>
-			<div>
+			<div class="field">
+				<img src="./images/topic.svg" alt="">
 				<label for="course">Тема*</label>
 				<select name="course" id="course" required>
 					<option value="1">Приобретение курсов</option>
@@ -27,9 +30,9 @@
 					<option value="3">Устройство на работу</option>
 				</select>
 			</div>
-			<div>
+			<div class="field">
 				<label for="comment">Комментарий</label>
-				<textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+				<textarea name="comment" id="comment" cols="22" rows="5"></textarea>
 			</div>
 			<button>Отправить</button>
 		</form>
