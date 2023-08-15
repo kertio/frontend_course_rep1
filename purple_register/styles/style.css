@@ -1,0 +1,77 @@
+* {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	border-radius: 10px;
+	color: #FAFAFA;
+}
+
+body {
+	background-color: #060607;
+}
+
+main {
+	color: #FAFAFA;
+}
+
+form {
+	background-color: #1E1F29;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin: 48px 0 32px 0;
+}
+
+input,
+select {
+	background-color: #2E2D3D;
+	padding: 27px 48px 12px;
+	margin-bottom: 16px;
+	border: none;
+}
+
+textarea {
+	background-color: #2E2D3D;
+	margin-bottom: 24px;
+	padding: 27px 24px;
+	border: none;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+	color: #AFB2BF;
+	font-size: 12px;
+}
+
+label {
+	position: absolute;
+	top: 12px;
+	left: 48px;
+	font-size: 12px;
+}
+
+button {
+	background-color: #6C38CC;
+	text-align: center;
+	font-size: 18px;
+	padding: 12px 24px;
+	border: none;
+}
+
+.field {
+	position: relative;
+}
+
+.field img {
+	position: absolute;
+	top: 17px;
+	left: 16px;
+}
+
+label[for="comment"] {
+	position: absolute;
+	left: 24px;
+}
