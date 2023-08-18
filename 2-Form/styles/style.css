@@ -1,61 +1,133 @@
+* {
+	margin: 0;
+		padding: 0;
+}
+html {
+	font-size: 10px;
+	
+}
+
 body {
 	background: linear-gradient(225deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0.00) 100%), linear-gradient(225deg, #FFA5A5 33.09%, rgba(255, 255, 255, 0.00) 82.34%), #F39494;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 }
 
-form {
-	background: #FFFEFE;
-}
-
-.form__register-title {
+label {
+	font-size: 1.6rem;
+	font-style: italic;
 	color: #333;
-	font-size: 36px;
-	font-weight: 700;
-}
-
-h2 {
-	font-size: 18px;
-	color: #666;
-	font-weight: 400;
-}
-
-#label__company {
-	color: #333;
-}
-
-#label__company imput {
-	background-color: #fff;
-}
-
-h2 a {
-	color: #089FE0;
 }
 
 input {
 	background: #F5F5F5;
+	padding: 5px 11px;
+	border: none;
+	border-radius: 5px;
 }
 
-label {
-	font-style: italic;
+.form-register {
+	background: #FFFEFE;
+	margin: 225px auto;
+	padding: 72px 100px 91px;
+	border-radius: 10px;
+	max-height: 573px;
+	max-width: 582px;
 }
 
-button {
+.title {
+	color: #333;
+	font-size: 3.6rem;
+	line-height: 1.4em;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-size: 1.8rem;
+	line-height: 1.4em;
+	color: #666;
+	font-weight: 400;
+	margin-bottom: 56px;
+}
+
+.signin {
+	color: #089FE0;
+}
+
+.input-company {
+	max-width: 394px;
+	max-height: 34px;
+	
+	/* margin: 0 0 21px; */
+}
+
+.fullname {
+	margin: 22px 0;
+}
+
+.fullname input {
+	max-width: calc(100% / 2);
+}
+
+.input-surname {
+	margin-top: 22px;
+}
+
+.input-email {
+	margin: 0 0 22px;
+	max-width: 394px;
+	max-height: 34px;
+}
+
+.register-btn {
+	position: relative;
+	height: 44px;
+	max-width: 394px;
 	background: #089FE0;
 	color: #fff;
-	font-size: 18px;
+	font-size: 1.8rem;
+	padding: 9px 102px;
+	background: #089FE0;
+	border: none;
+	border-radius: 5px;
+	transition: background-color .2s ease;
 }
 
-#agree {
+.register-btn:hover {
+	background-color: #02577cee;
+}
+
+.register-btn::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	right: 24px;
+	width: 22px;
+	height: 22px;
+	background: url('../icons/arrow.svg');
+}
+
+.agree {
+	margin: 22px 0 91px;
 	background: #F5F5F5;
+	max-width: 371px;
 }
 
-#agree__label {
+#agree-chkbox {
+	width: 15px;
+	height: 16px;
+	background: #F5F5F5;
+	margin-right: 4px;
+}
+
+#agree-label {
 	color: #666;
+	font-size: 1.4rem;
+	font-style: normal;
 }
 
-#agree__link {
+#agree-link {
 	color: #089FE0;
+	font-size: 1.4rem;
 }

@@ -10,24 +10,24 @@
 </head>
 <body>
 	<main>
-		<form action="#">
-			<p class="form__register-title">Регистрация</p>
-			<h2>Уже есть аккаунт?<a href="#">Войти</a></h2>
-			<label id="label__company">
+		<form class="form-register"	action="#">
+			<p class="title">Регистрация</p>
+			<h2 class="subtitle">Уже есть аккаунт?
+					<a class="signin" href="#">Войти</a>
+			</h2>
+			<label>
 				Моя компания
-					<input 
-						id="company"
+					<input class="input-company"
 						type="text" 
 						name="company" 
 						placeholder="Моя компания"  
 						autocomplete="organization">
 				</label>
 				
-			<div>
+			<div class="fullname">
 				<label>
 					Имя
-					<input 
-						id="name"
+					<input class="input-name"
 						type="text" 
 						name="name" 
 						placeholder="Имя" 
@@ -36,8 +36,7 @@
 				
 				<label>
 					Фамилия
-					<input 
-						id="surname"
+					<input class="input-surname"
 						type="text" 
 						name="surname" 
 						placeholder="Фамилия" 
@@ -48,8 +47,7 @@
 			<div>
 				<label>
 				E-mail
-				<input 
-					id="email"
+				<input class="input-email"
 					type="email" 
 					name="email" 
 					placeholder="E-mail" 
@@ -57,12 +55,13 @@
 				</label>
 			</div>
 
-			<button>Зарегистрироваться &rarr;</button>
+			<button class="register-btn">Зарегистрироваться</button>
 
-			<div>
-				<input type="checkbox" name="agree" id="agree">
-				<label for="agree" id="agree__label">Я прочитал и принимаю</label>
-				<a href="#" id="agree__link">Условия использования</a>
+			<div class="agree">
+				<input type="checkbox" name="agree" id="agree-chkbox">
+				<label for="agree" id="agree-label">Я прочитал и принимаю
+					<a href="#" id="agree-link">Условия использования</a>
+				</label>
 			</div>
 		</form>
 	</main>
