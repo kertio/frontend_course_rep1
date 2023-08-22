@@ -11,56 +11,50 @@
 <body>
 	<main>
 		<form class="form-register"	action="#">
-			<p class="title">Регистрация</p>
-			<h2 class="subtitle">Уже есть аккаунт?
-					<a class="signin" href="#">Войти</a>
+			
+			<h1 class="form-title">Регистрация</h1>
+			<h2 class="form-subtitle">Уже есть аккаунт?
+					<a class="link" href="#">Войти</a>
 			</h2>
-			<label>
-				Моя компания
-					<input class="input-company"
-						type="text" 
-						name="company" 
-						placeholder="Моя компания"  
-						autocomplete="organization">
-				</label>
-				
-			<div class="fullname">
-				<label>
-					Имя
-					<input class="input-name"
-						type="text" 
-						name="name" 
-						placeholder="Имя" 
-						autocomplete="given-name">
-				</label>
-				
-				<label>
-					Фамилия
-					<input class="input-surname"
-						type="text" 
-						name="surname" 
-						placeholder="Фамилия" 
-						autocomplete="family-name">
-				</label>
-			</div>
 
-			<div>
-				<label>
-				E-mail
-				<input class="input-email"
-					type="email" 
-					name="email" 
-					placeholder="E-mail" 
-					autocomplete="email">
-				</label>
-			</div>
+			<input class="fields-input"
+				type="text" 
+				name="company" 
+				placeholder="Моя компания"  
+				autocomplete="organization">
+
+			<input class="fields-input reg-names" 
+				type="text" 
+				name="name" 
+				placeholder="Имя" 
+				autocomplete="given-name"
+				required>
+
+			<input class="fields-input reg-names"
+				type="text" 
+				name="surname" 
+				placeholder="Фамилия" 
+				autocomplete="family-name"
+				required>
+
+
+			<input class="fields-input"
+				type="email" 
+				name="email" 
+				placeholder="E-mail" 
+				autocomplete="email"
+				required>
 
 			<button class="register-btn">Зарегистрироваться</button>
 
 			<div class="agree">
-				<input type="checkbox" name="agree" id="agree-chkbox">
-				<label for="agree" id="agree-label">Я прочитал и принимаю
-					<a href="#" id="agree-link">Условия использования</a>
+				<input 
+					id="agree-chkbox"
+					type="checkbox" 
+					name="agree"
+					required>
+				<label for="agree-chkbox" id="agree-label">Я прочитал и принимаю
+					<a href="#!" class="link">Условия использования</a>
 				</label>
 			</div>
 		</form>

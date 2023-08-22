@@ -1,101 +1,80 @@
 * {
+	box-sizing: border-box;
 	margin: 0;
-		padding: 0;
+	padding: 0;
 }
+
 html {
-	font-size: 10px;
-	
+	color: #333;
+	font-style: normal;
 }
 
 body {
 	background: linear-gradient(225deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0.00) 100%), linear-gradient(225deg, #FFA5A5 33.09%, rgba(255, 255, 255, 0.00) 82.34%), #F39494;
-	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
 	font-weight: 400;
 }
 
-label {
-	font-size: 1.6rem;
-	font-style: italic;
-	color: #333;
-}
-
-input {
-	background: #F5F5F5;
-	padding: 5px 11px;
-	border: none;
-	border-radius: 5px;
-}
-
 .form-register {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	background: #FFFEFE;
+	font-size: 10px;
 	margin: 225px auto;
-	padding: 72px 100px 91px;
+	padding: 72px 90px 90px;
+	border: none;
 	border-radius: 10px;
-	max-height: 573px;
 	max-width: 582px;
 }
 
-.title {
+.form-title {
 	color: #333;
-	font-size: 3.6rem;
-	line-height: 1.4em;
+	font-size: 3.6em;
 	font-weight: 700;
+	max-width: 383px;
+	margin-bottom: 5px;
 }
 
-.subtitle {
-	font-size: 1.8rem;
-	line-height: 1.4em;
+.form-subtitle {
 	color: #666;
+	font-size: 1.8em;
 	font-weight: 400;
 	margin-bottom: 56px;
 }
 
-.signin {
+.link {
 	color: #089FE0;
 }
 
-.input-company {
-	max-width: 394px;
-	max-height: 34px;
-	
-	/* margin: 0 0 21px; */
+.fields-input {
+	color: #999;
+	background: #F5F5F5;
+	font-size: 1.6em;
+	font-style: italic;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 11px;
+	margin-bottom: 22px;
+	width: 100%;
 }
 
-.fullname {
-	margin: 22px 0;
-}
-
-.fullname input {
-	max-width: calc(100% / 2);
-}
-
-.input-surname {
-	margin-top: 22px;
-}
-
-.input-email {
-	margin: 0 0 22px;
-	max-width: 394px;
-	max-height: 34px;
+.reg-names {
+	width: calc(100% / 2 - 2px);
 }
 
 .register-btn {
 	position: relative;
-	height: 44px;
-	max-width: 394px;
 	background: #089FE0;
 	color: #fff;
-	font-size: 1.8rem;
+	font-size: 1.8em;
+	height: 44px;
+	width: 100%;
 	padding: 9px 102px;
-	background: #089FE0;
 	border: none;
 	border-radius: 5px;
 	transition: background-color .2s ease;
 }
 
 .register-btn:hover {
-	background-color: #02577cee;
+	background: #0c82b4;
 }
 
 .register-btn::after {
@@ -109,25 +88,8 @@ input {
 }
 
 .agree {
-	margin: 22px 0 91px;
 	background: #F5F5F5;
+	font-size: 1.4em;
+	margin-top: 22px;
 	max-width: 371px;
-}
-
-#agree-chkbox {
-	width: 15px;
-	height: 16px;
-	background: #F5F5F5;
-	margin-right: 4px;
-}
-
-#agree-label {
-	color: #666;
-	font-size: 1.4rem;
-	font-style: normal;
-}
-
-#agree-link {
-	color: #089FE0;
-	font-size: 1.4rem;
 }
