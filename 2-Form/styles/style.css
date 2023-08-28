@@ -11,46 +11,59 @@ html {
 
 body {
 	background: linear-gradient(225deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0.00) 100%), linear-gradient(225deg, #FFA5A5 33.09%, rgba(255, 255, 255, 0.00) 82.34%), #F39494;
+	background-size: 400% 400%;
 	font-weight: 400;
+}
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .form-register {
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	background: #FFFEFE;
 	font-size: 10px;
-	margin: 225px auto;
 	padding: 72px 90px 90px;
 	border: none;
 	border-radius: 10px;
 	max-width: 582px;
-
+	gap: 56px;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	/* flex-wrap: wrap; */
 }
 
-.form-title {
+.title {
 	color: #333;
 	font-size: 3.6em;
 	font-weight: 700;
-	max-width: 383px;
-	margin: auto;
 	margin-bottom: 5px;
 	width: 100%;
 	text-align: center;
 }
 
-.form-subtitle {
+.subtitle {
 	color: #666;
 	font-size: 1.8em;
 	font-weight: 400;
-	margin-bottom: 56px;
+	/* margin-bottom: 56px; */
 	width: 100%;
-	flex: 1;
+	/* flex: 1; */
 	text-align: center;
 }
 
 .link {
 	color: #089FE0;
+}
+
+.fields-input-flex {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 22px;
 }
 
 .fields-input {
@@ -61,13 +74,12 @@ body {
 	border: none;
 	border-radius: 5px;
 	padding: 5px 11px;
-	margin: auto;
-	margin-bottom: 22px;
+	/* margin-bottom: 22px; */
 	width: 100%;
 }
 
 .reg-names {
-	width: calc(100% / 2 - 2px);
+	flex: 0.5;
 }
 
 .register-btn {
@@ -100,6 +112,6 @@ body {
 .agree {
 	background: #F5F5F5;
 	font-size: 1.4em;
-	margin: 22px auto 0;
+	/* margin: 22px auto 0; */
 	max-width: 371px;
 }
