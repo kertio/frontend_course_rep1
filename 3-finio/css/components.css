@@ -1,0 +1,11 @@
+.header-skewed-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 765px;
+	background: var(--color-second);
+	z-index: -1;
+	transform: skewY(var(--skew-deg));
+	transform-origin: top left;
+}

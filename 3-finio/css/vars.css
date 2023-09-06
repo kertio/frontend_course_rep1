@@ -1,0 +1,11 @@
+:root {
+	--skew-deg: -6deg;
+
+	/* colors */
+	--color-bg: #FFF;
+	--color-second: #357EFE;
+
+	/* scales */
+	--container-width: 1392px;
+	--padding-container: 24px;
+}

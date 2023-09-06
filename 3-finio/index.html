@@ -6,24 +6,394 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Лендинг финансового учета Finio">
 	<title>Finio</title>
+	<link rel="stylesheet" href="./css/main.css	">
 </head>
-<body>
-	<!-- header -->
-		<header>
+<body class="d-flex-col-sb">
 
-		</header>
-	<!-- /header -->
-
-	<!-- main -->
-	<main>
-
-	</main>
-	<!-- /main -->
+	<div class="header-skewed-bg"></div>
 	
-	<!-- footer -->
-	<footer>
+	<header class="header">
+		<div class="container header__wrapper">
+			<span class="logo">finio</span>
+			<nav class="nav header__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#!" class="nav__link">Возможности</a>
+					</li>
+					<li class="nav__item">
+						<a href="#!" class="nav__link">Тарифы</a>
+					</li>
+					<li class="nav__item">
+						<a href="#!" class="nav__link">Отзывы</a>
+					</li>
+					<li class="nav__item">
+						<a href="#!" class="nav__link">Поддержка клиентов</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="btn btn__header btn__stroke">Личный кабинет</button>
+		</div>
+	</header>
 		
+	<main> 
+		<section class="container hero">
+			<div class="hero__text-side">
+				<h1 class="title-h1">Простой финансовый учёт для продавцов на&nbsp;маркетплейсах</h1>
+				<button class="button button__stroke">Попробовать 14&nbsp;дней бесплатно</button>
+				<ul class="logo-list">
+					<li class="logo-list__item">
+						<img 
+							src="./images/logos/wildberries.svg" 
+							alt="Логотип Wildberries">
+					</li>
+					<li class="logo-list__item">
+						<img 
+							src="./images/logos/ozon.svg" 
+							alt="Логотип Ozon">
+					</li>
+					<li class="logo-list__item">
+						<img 
+							src="./images/logos/market.svg" 
+							alt="Логотип Маркет">
+					</li>
+					<li class="logo-list__item">
+						<img 	
+							src="./images/logos/aliexpress.svg" 
+							alt="Логотип AliExpress">
+					</li>
+				</ul>
+			</div>
+			<div class="hero__photo-side">
+				<img class="hero__img" src="./images/laptop.png" alt="Фото экрана ноутбука со страницей сайта Finio">
+			</div>
+		</section>
+
+
+		<ul class="container features-list">
+			<li class="features-list__item">
+				<img 
+					class="features-list__icon" 
+					src="./images/icon-1.svg" 
+					alt="диаграммы">
+				<p>Анализ прибыли по<br>товарам и&nbsp;брендам</p>
+			</li>
+			<li class="features-list__item">
+				<img 
+					class="features-list__icon" 
+					src="./images/icon-2.svg" 
+					alt="доходы">
+				<p>Автоматический учёт<br>доходов Wildberries</p>
+			</li>
+			<li class="features-list__item">
+				<img 
+					class="features-list__icon" 
+					src="./images/icon-3.svg" 
+					alt="символ рубля">
+				<p>От 990 рублей в месяц<br>с полным функционалом</p>
+			</li>
+		</ul>
+
+		<ul class="container posible-block">
+			<li class="posible-block__item">
+				<div class="posible-block__desc">
+					<h2 class="posible-block__title">Предотвращайте кассовые разрывы</h2>
+					<h3 class="posible-block__subtitle">Заранее планируйте предстоящие платежи и&nbsp;поступления средств. Тем самым, вы&nbsp;избежите неприятной ситуации с&nbsp;нехваткой средств на&nbsp; счетах</h3>
+				</div>
+				<img 
+					class="posible-block__image" 
+					src="./images/balance.png" alt="баланс на конец месяца">
+			</li>
+
+			<li class="posible-block__item">
+				<div class="posible-block__desc">
+					<h2 class="posible-block__title">Отчёты о&nbsp;прибыли и&nbsp;убытках всегда под рукой</h2>
+					<h3 class="posible-block__subtitle">Получите полную информацию о&nbsp;состоянии вашего бизнеса, включающую все необходимые показатели для принятия правильных решений</h3>
+				</div>
+				<img 
+					class="posible-block__image" 
+					src="./images/report.png" 
+					alt="График прибыли и убытков">
+			</li>
+
+			<li class="posible-block__item">
+				<div class="posible-block__desc">
+					<h2 class="posible-block__title">Какие товары приносят прибыль</h2>
+					<h3 class="posible-block__subtitle">Находите точки роста, делайте упор на&nbsp;рентабельные товары и&nbsp;увеличивайте свой доход</h3>
+				</div>
+				<img 
+					class="posible-block__image" 
+					src="./images/ellipse.png" 
+					alt="Диаграмма прибыли">
+			</li>
+
+			<li class="posible-block__item">
+				<div class="posible-block__desc">
+					<h2 class="posible-block__title">Сокращайте лишние расходы</h2>
+					<h3 class="posible-block__subtitle">Анализируйте расходы, убирать ненужные издержки и&nbsp;находите возможности повышать прибыльность бизнеса</h3>
+				</div>
+				<img 
+					class="posible-block__image" 
+					src="./images/table.png" 
+					alt="Таблица расходов">
+			</li>
+		</ul>
+
+		<section class="container promo">
+			<h2 class="promo__title">Экономьте время и&nbsp;нервы на&nbsp;учете</h2>
+			<p class="promo__desc">Автоматическая синхронизация данных с&nbsp;маркетплейсов позволит вам мгновенно получать все важный показатели бизнеса на&nbsp;одном экране. А&nbsp;с&nbsp;помощью мобильной версии вы&nbsp;сможете вносить расходы всего пару кликов</p>
+			<button class="button button__stroke">Попробовать 14&nbsp;дней бесплатно</button>
+			<div class="promo__swiper">
+				<img 
+					src="./images/excel.png" 
+					alt="таблицы эксель">
+				<img 
+					src="./images/report-finio.png" 
+					alt="гистрограмма finio">
+			</div>
+			
+			<div class="promo__wrapper">
+				<ul class="promo-list">
+					<li class="promo-list__header">Excel</li>
+					<li class="promo-list__item">Долгое внесение данных</li>
+					<li class="promo-list__item">Ручной ввод данных с&nbsp;маркетплейсов</li>
+					<li class="promo-list__item">Не&nbsp;удобная работа с&nbsp;телефона</li>
+					<li class="promo-list__item">Сложность восприятия итоговых данных</li>
+				</ul>
+
+				<ul class="promo-list">
+					<li class="promo-list__header">FINIO</li>
+					<li class="promo-list__item">Внесение данных за&nbsp;пару кликов</li>
+					<li class="promo-list__item">Автоматическое получение данных по&nbsp;API</li>
+					<li class="promo-list__item">Удобная мобильная версия</li>
+					<li class="promo-list__item">Наглядные отчеты, графики и&nbsp;таблицы</li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="container safety">
+			<ul class="safety__list">
+				<li class="safety__item">
+					<img src="./images/servers-ico.svg" alt="Облачный сервер">
+					<h2 class="safety__title">Надёжные сервера на&nbsp;территории России</h2>
+					<h3 class="safety__subtitle">Никакие события не&nbsp;скажутся на&nbsp;бесперебойной работе сервиса.</h3>
+				</li>
+				<li class="safety__item">
+					<img src="./images/ssl-ico.svg" alt="щит">
+					<h2 class="safety__title">Используем 256-битное SSL-шифрование</h2>
+					<h3 class="safety__subtitle">Ваши данные не&nbsp;могут быть перехвачены, даже при использовании открытых Wi-Fi сетей</h3>
+				</li>
+				<li class="safety__item">
+					<img src="./images/security-ico.svg" alt="замок">
+					<h2 class="safety__title">Не&nbsp;передаём ваши данные 3-им лицам</h2>
+					<h3 class="safety__subtitle">Все данные о&nbsp;доходах и&nbsp;расходах компании видны только вам и&nbsp;тем, кому вы&nbsp;открыли доступ</h3>
+				</li>
+			</ul>
+		</div>
+
+		<section class="container app-present">
+			<h2 class="app-present__title">Мобильная версия</h2>
+			<p class="app-present__subtitle">Пользоваться всем функционалом сервиса удобно в&nbsp;любом месте и&nbsp;с&nbsp;любых устройств</p>
+			<img 
+				class="app-present__img"
+				src="./images/app-desktop-mobile.png" 
+				alt="мобильная и десктопная версии приложения с транзакциями">
+		</section>
+		
+		<div class="container contacts contacts__bg">
+			<div class="contacts__wrapper">
+				<p class="contacts__title">Поддержка клиентов</p>
+				<p class="contacts__subtitle">Мы&nbsp;всегда готовы ответить на&nbsp;любые вопросы в&nbsp;онлайн чате или по&nbsp;телефону.</p>
+				<ul class="contacts__list">
+					<li class="contacts__item">
+						<a href="https://t.me/finio" class="contacts__link">Telegram Finio</a>
+					</li>
+					<li class="contacts__item">
+						<a href="https://wa.me/finio" class="contacts__link">WhatsApp Finio</a>
+					</li>
+					<li class="contacts__item">
+						<a href="mailto:hello@finio.ru" class="contacts__link">hello@finio.ru</a>
+					</li>
+				</ul>
+				<p class="contacts__subtitle">Кроме того, мы&nbsp;готовы помочь вам с&nbsp;переносом данных из&nbsp;других сервисов или Excel.</p>
+			</div>
+			<img src="./images/contact-manager.png" alt="девушка держит руки в виде сердечка">
+		</div>
+	
+		<section class="container tarifs">
+			<h2 class="tarifs__title">Тарифы</h2>
+			<h3 class="tarifs__subtitle">Все тарифы имеют полный функционал и&nbsp;отличаются только количеством месяцев и&nbsp;выгодой</h3>
+			
+			<div class="card-wrapper">
+
+				<div class="tarif-card">
+					<span class="tarif-card__benefit"></span>
+					<p class="tarif-card__header">1 месяц</p>
+					<p class="tarif-card__desc">Тариф подойдёт тем, кто ведёт краткосрочные проекты</p>
+					<div class="tarif-card__options">
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Общая стоимость</span>
+							<span class="tarif-card__val">1 990 ₽</span>
+						</div>
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Ваша выгода</span>
+							<span class="tarif-card__val">0 ₽</span>
+						</div>
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Стоимость месяца</span>
+							<span class="tarif-card__val">1 990 ₽/мес</span>
+						</div>
+					</div>
+					<button class="button button-fill">Бесплатно 14 дней</button>
+				</div>
+
+				<div class="tarif-card">
+					<span class="tarif-card__benefit tarif-card__benefit_green">Выгода 25%</span>
+					<p class="tarif-card__header">6 месяцев</p>
+					<p class="tarif-card__desc">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт</p>
+					<div class="tarif-card__options">
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Общая стоимость</span>
+							<span class="tarif-card__val">8 940 ₽</span>
+						</div>
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Ваша выгода</span>
+							<span class="tarif-card__val tarif-card__val_focused">3 000 ₽</span>
+						</div>
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Стоимость месяца</span>
+							<span class="tarif-card__val">1 490 ₽/мес</span>
+						</div>
+					</div>
+					<button class="button button-fill">Бесплатно 14 дней</button>
+				</div>
+				
+				<div class="tarif-card tarif-card_active">
+					<span class="tarif-card__benefit tarif-card__benefit_green">Выгода 50%</span>
+					<p class="tarif-card__header">12 месяцев</p>
+					<p class="tarif-card__desc">Тариф подойдёт для тех, кто уверенно ведёт финансовый учёт и&nbsp;хочет сэкономить</p>
+					<div class="tarif-card__options">
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Общая стоимость</span>
+							<span class="tarif-card__val">11 880 ₽</span>
+						</div>
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Ваша выгода</span>
+							<span class="tarif-card__val tarif-card__val_focused">12 000 ₽</span>
+						</div>
+						<div class="tarif-card__row">
+							<span class="tarif-card__option">Стоимость месяца</span>
+							<span class="tarif-card__val">990 ₽/мес</span>
+						</div>
+					</div>
+					<button class="button button-stroke">Бесплатно 14 дней</button>
+				</div>
+			</div> <!--/card-wrapper-->
+		</section> <!--/tarifs-->
+
+		<section class="container slider">
+			<h2 class="slider__title">Отзывы</h2>
+			<div class="slider__wrapper">
+				<div class="slider__items">
+		
+					<div class="slider__item-left">
+						<p class="slider__item-left-title">Впервые за&nbsp;долгое время увидела свои расходы и&nbsp;доходы как на&nbsp;ладони.</p>
+						<p class="slider__item-left-name">Дана Валеева</p>
+						<p class="slider__item-left-job">Продавец Wildberries</p>
+					</div>
+		
+					<img class="slider__item-right" src="./images/slider/item-1.png" alt="Изображение девушки">
+		
+				</div>
+			</div>
+			<button class="slider__btn-left">
+				<img src="./images/slider/btn-left.svg" alt="Кнопка прокрутки слайдера влево">
+			</button>
+			<button class="slider__btn-left">
+				<img src="./images/slider/btn-right.svg" alt="Кнопка прокрутки слайдера вправо">
+			</button>
+		</section>
+	</main>
+	
+	
+	<footer class="container footer">
+		<div class="footer__wrapper">
+			<div class="footer__col">
+				<span class="logo">finio</span>
+				<div class="footer__text opacity-05">
+					Простой финансовый учёт для продавцов на&nbsp;маркетплейсах
+				</div>
+			</div>
+
+			<div class="footer__col">
+				<nav class="nav footer__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Возможности</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Тарифы</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Отзывы</a>
+						</li>
+						<li class="nav__item">
+							<a href="#!" class="nav__link">Поддержка клиентов</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="footer__col">
+				<ul class="footer-legal">
+					<li class="footer-legal__item">
+						<a class="footer-legal__link" href="#">Политика конфиденциальности</a></li>
+					<li class="footer-legal__item">
+						<a class="footer-legal__link" href="#">Пользовательское соглашение</a></li>
+					<li class="footer-legal__item">
+						<a class="footer-legal__link" href="#">Оплата и возврат</a></li>
+					<li class="footer-legal__item">
+						<a class="footer-legal__link" href="#">Договор оферта</a></li>
+				</ul>
+			</div>
+
+			<div class="footer__col">
+				<ul class="footer-contacts">
+					<li class="footer-contacts__item">ИП Ларичев Антон Андреевич</li>
+					<li class="footer-contacts__item">ИНН 773373765379</li>
+					<li class="footer-contacts__item">ОГРИП 322774600208776</li>
+					<li class="footer-contacts__item">
+						<a href="mailto:alarichev@gmail.com">Эл. почта: alarichev@gmail.com</a>
+					</li>
+					<li class="footer-contacts__item">
+						<a href="tel:+79104357592">Тел.: +7 (910) 435-75-92</a>
+					</li>
+					<li class="footer-contacts__item">Москва, Вилиса Лациса 25</li>
+				</ul>
+			</div>
+
+			<hr>
+
+			<small>© 2022 Finio. Все права защищены.</small>
+			<div class="bank-cards">
+				<ul class="bank-cards__list">
+					<li class="bank-cards__item">
+						<img 
+							src="./images/logos/visa.svg" 
+							alt="Карта Visa">
+					</li>
+					<li class="bank-cards__item">
+						<img 
+							src="./images/logos/mastercard.svg" 
+							alt="Карта Mastercard">
+					</li>
+					<li class="bank-cards__item">
+						<img 
+							src="./images/logos/mir.svg" 
+							alt="Карта Мир">
+					</li>
+				</ul>
+			</div>
+		</div> <!--/footer__wrapper-->
 	</footer>
-	<!-- /footer -->
 </body>
 </html>
