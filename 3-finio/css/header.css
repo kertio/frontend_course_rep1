@@ -1,0 +1,30 @@
+.header {
+	padding: 40px 0 96px;
+	background-color: var(--color-second);
+}
+
+.header__wrapper {
+	align-items: center;
+}
+
+.header__nav {
+	font-size: 18px;
+}
+
+.header__nav a {
+	color: var(--color-subtitle-white);
+}
+
+/* media  */
+
+@media (max-width: 789.98px) {
+	.header__nav {
+		display: none;
+	}
+}
+
+@media (max-width: 979.98px) {
+	.header {
+		padding-bottom: 53px;
+	}
+}

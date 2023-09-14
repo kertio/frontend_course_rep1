@@ -1,11 +1,15 @@
 :root {
-	--skew-deg: -6deg;
-
 	/* colors */
-	--color-bg: #FFF;
+	--color-white: #FFF;
+	--color-dark: #000;
 	--color-second: #357EFE;
+
+	--color-subtitle-gray: rgba(78, 93, 124, 0.50);
+	--color-subtitle-white: rgba(255, 255, 255, 0.80);
 
 	/* scales */
 	--container-width: 1392px;
 	--padding-container: 24px;
+
+	--border-radius: 16px;
 }

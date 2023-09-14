@@ -16,6 +16,7 @@ html {
 
 ul {
 	list-style: none;
+
 	margin: 0;
 	padding: 0;
 }
@@ -42,4 +43,5 @@ p {
 	max-width: calc(var(--container-width) + (var(--padding-container) * 2));
 	margin: 0 auto;
 	padding: 0 var(--padding-container);
+	/* border: 1px solid red; */
 }

@@ -1,0 +1,50 @@
+.socials {
+	--color-white: #FFF;
+	
+	margin: 16px 0;
+	gap: 24px;
+}
+
+.socials__item {
+	position: relative;
+}
+
+.socials__link {
+	margin-left: 48px;
+	font-size: 17px;
+	font-weight: 500;
+	color: var(--color-white);
+}
+
+.socials__link_tg,
+.socials__link_watsapp,
+.socials__link_mail {
+	position: relative;
+}
+
+.socials__link_tg::before,
+.socials__link_watsapp::before,
+.socials__link_mail::before {
+	content: '';
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -48px;
+	width: 32px;
+	height: 32px;
+}
+
+.socials__link_tg::before {
+	background: url('../../images/icons/socials/tg.svg');
+}
+
+.socials__link_watsapp::before {
+	background: url('../../images/icons/socials/watsapp.svg');
+}
+
+.socials__link_mail::before {
+	height: 23px;
+	background: url('../../images/icons/socials/mail.svg');
+	background-repeat: no-repeat;
+}
