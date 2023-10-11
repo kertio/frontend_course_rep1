@@ -25,6 +25,7 @@
 	transition:
 		background-color 0.2s ease,
 		color 0.2s ease;
+	cursor: pointer;
 }
 
 .btn__stroke {
@@ -43,7 +44,7 @@
 
 .burger {
 	display: none;
-	background: url('../../images/icons/burger.svg');
+	background-color: transparent;
 	width: 24px;
 	height: 24px;
 	border: none;

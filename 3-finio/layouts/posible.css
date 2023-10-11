@@ -7,7 +7,6 @@
 .posible-block__item {
 	align-items: center;
 	justify-content: flex-start;
-
 	gap: 65px;
 }
 
@@ -20,16 +19,17 @@
 	font-size: 40px;
 	font-weight: 600;
 	color: var(-color-dark);
+	text-wrap: balance;
 }
 
 .posible-block__subtitle {
 	font-size: 18px;
 	font-weight: 500;
 	color: var(--color-subtitle-gray);
+	text-wrap: balance;
 }
 
 .posible-block__image {
-	padding: 10px;
 	width: 100%;
 	max-width: 730px;
 }

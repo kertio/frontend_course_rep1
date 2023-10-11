@@ -1,6 +1,8 @@
 .header {
 	padding: 40px 0 96px;
 	background-color: var(--color-second);
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 .header__wrapper {

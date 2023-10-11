@@ -47,15 +47,16 @@
 }
 
 .slider__col_text {
-	max-width: 450px;
-	padding-left: 105px;
-
+	position: relative;
+	width: 100%;
+	padding: 0 105px;
+	text-wrap: balance;
 }
 
 .slider__col-img {
+	position: relative;
 	width: 100%;
 	max-width: 578px;
-
 }
 
 .slider__desc {
@@ -77,45 +78,32 @@
 	color: var(--color-white);
 }
 
-.slider__left-side,
-.slider__right-side {
-	position: relative;
-}
-
-.slider__left-side::before,
-.slider__right-side::after {
-	content: '';
+.slider__btn-prev,
+.slider__btn-next {
 	position: absolute;
-	display: block;
-	height: 40px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
 	width: 40px;
+	height: 40px;
 	border-radius: 50%;
-	cursor: url('../images/cursor.png'), auto;
-	box-shadow: 0px 0px 32px rgba(78, 93, 124, 0.32);
+	text-align: center;
+	background-color: rgba(254, 254, 254, 0.6);
 }
 
-.slider__left-side::before {
+.slider__btn-prev {
 	top: 50%;
 	left: 24px;
 	transform: translateY(-50%);
-	background: url('../../images/slider/btn-left.svg') no-repeat 50%;
-	background-color: var(--color-inactive-btn);
 }
 
-.slider__right-side::after {
+.slider__btn-next {
 	top: 50%;
-	transform: translateY(-50%);
-	right: 24px;
-	border-radius: 50%;
-	background: url('../../images/slider/btn-right.svg') no-repeat 50%;
-	background-color: var(--color-inactive-btn);
+	left: calc(100% - 40px - 24px);
 }
 
-.slider__left-side_active::before {
-	background-color: var(--color-white);
-}
-
-.slider__right-side_active::after {
+.slider__btn_active {
 	background-color: var(--color-white);
 }
 
@@ -152,8 +140,6 @@
 @media (max-width: 991.98px) {
 	.slider__items {
 		flex-direction: column-reverse;
-		gap: 32px;
-		max-width: 578px;
 	}
 
 	.slider__wrapper {
@@ -162,8 +148,8 @@
 		width: 100%;
 	}
 
-	.slider__left-side::before,
-	.slider__right-side::after {
+	.slider__btn-prev,
+	.slider__btn-next {
 		display: none;
 	}
 
@@ -171,16 +157,12 @@
 		font-size: 24px;
 	}
 
-	.slider__left-side {
-		padding-bottom: 104px;
-	}
-
 	.slider-dot {
 		display: inline-block;
 	}
-
+	
 	.slider__col_text {
-		padding-left: 24px;
-		padding-right: 24px;
+		padding: 56px 24px 104px;
+		text-wrap: balance;
 	}
 }

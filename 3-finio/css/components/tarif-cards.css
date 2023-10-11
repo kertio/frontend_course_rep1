@@ -87,11 +87,11 @@
 .tarif-card__row {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .tarif-card_active {
 	background-color: var(--active-bg);
-
 }
 
 .tarif-card_active .tarif-card__val,
