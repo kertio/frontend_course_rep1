@@ -1,0 +1,20 @@
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./vars.css);
+@import url(./utils.css);
+@import url(./global.css);
+
+
+@import url(./header.css);
+
+@import url(./components/components.css);
+@import url(../layouts/layouts.css);
+
+
+
+@import url(./page.css);
+@import url(../css/media.css);
+
+
+
+@import url(./footer.css);

@@ -1,0 +1,19 @@
+.logo-list {
+	flex-wrap: wrap;
+	margin-top: 40px;
+	max-width: 340px;
+	justify-content: space-between;
+	gap: 22px 10px;
+}
+
+.logo-list__item {
+	/* margin-right: 10px; */
+}
+
+/* media */
+
+@media (max-width: 575.98px) {
+	.logo-list__item img {
+		max-width: 140px;
+	}
+}

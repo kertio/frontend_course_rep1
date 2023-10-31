@@ -1,0 +1,17 @@
+.logo {
+	--color-white: #FFF;
+
+	font-size: 36px;
+	font-weight: 900;
+	text-transform: uppercase;
+
+	color: var(--color-white);
+}
+
+/* Media */
+
+@media (max-width: 991.98px) {
+	.logo_header {
+		font-size: 28px;
+	}
+}

@@ -1,0 +1,38 @@
+.nav {
+	--color-white: #FFF;
+
+	margin: 0 8px;
+
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.nav__list {
+	display: flex;
+	gap: 32px;
+}
+
+.nav__item {
+	opacity: 0.8;
+	transition: opacity 0.1s ease-in;
+}
+
+.nav__item:hover {
+	opacity: 1;
+}
+
+.nav__link {
+	color: var(--color-white);
+}
+
+
+/* Media */
+
+@media (max-width: 991.98px) {
+	.nav__link {
+		font-size: 17px;
+		font-weight: 500;
+		gap: 0;
+	}
+}
